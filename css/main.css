@@ -95,6 +95,9 @@ body {
   color: hsl(245, 75%, 52%);
   cursor: pointer;
 }
+.component-container .order-component__info .info__plan-description .plan-description__return:hover {
+  opacity: 50%;
+}
 .component-container .order-component__info .info__proceed-payment {
   cursor: pointer;
   border: none;

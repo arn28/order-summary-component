@@ -97,6 +97,9 @@ body {
             font-weight: 900;
             color: $bright-blue;
             @include pointer();
+            &:hover {
+              opacity: 50%;
+            }
           }
         }
       }
